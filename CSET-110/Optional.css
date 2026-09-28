@@ -1,0 +1,106 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-gap: 50%;
+    background-color: lightskyblue;
+}
+
+header .logo{
+    margin-left: 80px;
+    border-top: 3px solid teal;
+    padding-top: 25px;
+    font-size: 50px;
+    color: white;
+    position:relative;
+    left:400px
+}
+
+header .logo:hover {
+    color: teal;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    position:relative;
+    right:300px;
+    top:60px;
+}
+
+nav p {
+    position: relative;
+    right: 273px;
+    top: 80px;
+    font-size: 25px;
+}
+
+nav li {
+    list-style-type: none;
+    font-size: 25px;
+    text-align: center;
+}
+
+nav a:hover {
+    color: black;
+    background-color: teal;
+    transition-duration: 0.3s;
+}
+
+nav li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.3s;
+}
+
+.big-box{
+    flex-direction:column;
+    background-color:rgb(12, 11, 10);
+}
+.top{
+    background-color:rgb(110, 159, 248);
+    display:flex;
+    min-height: 400px;
+}
+
+.bottom{
+    background-color:rgb(72, 72, 75);
+    display:flex;
+    justify-content: center;
+    min-height: 390px;
+    align-items:center;
+
+}
+
+.footer{
+    background-color:rgb(247, 247, 255);
+    display:flex;
+    min-height: 100px; 
+}
+
+
+.larry{
+    background-color:rgb(247, 247, 255);
+    height: 300px; 
+    min-width: 200px;
+    margin-left:10px;
+    flex-direction: row;
+}
+
+#dah-bih-gah{
+    background-image: url(https://th.bing.com/th/id/OIP.yz5fRgH8VaAkR0zSzg50TQHaJ2?w=150&h=208&c=7&r=0&o=7&pid=1.7&rm=3);
+    background-size: 10vw 30vh;
+    background-repeat:no-repeat;
+    height: 200px; 
+    width: 200px;
+    margin-left:10px;
+    flex-direction: row;
+}
